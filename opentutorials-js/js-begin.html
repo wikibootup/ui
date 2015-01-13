@@ -1,0 +1,26 @@
+<!-- http://opentutorials.org/ -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>add demo</title>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+ 
+<p>Hello</p>
+<span id="a">Hello Again</span>
+  <li>wow </li>
+  <script>
+    document.write('hello document');
+  </script>
+<script>
+var collection = $( "p" );
+// Capture the new collection
+collection = collection.add( document.getElementById( "a" ) );
+collection.css( "background", "yellow" );
+$( "li" ).css( "background-color", "red" );
+</script>
+ 
+</body>
+</html>
